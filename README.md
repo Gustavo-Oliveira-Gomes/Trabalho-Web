@@ -42,5 +42,3 @@ Em um teste simples de carregamento de um arquivo de texto (dados.txt), o tempo 
 ## 📌 Conclusão
 
 O async/await provou ser a abordagem mais intuitiva e limpa para código assíncrono, principalmente quando há múltiplas operações em sequência. A API fetch é moderna e fácil de usar, enquanto Promises ainda exigem um pouco mais de atenção em encadeamentos. XmlHttpRequest, apesar de funcional, está obsoleto para a maioria dos casos modernos.
-
-
