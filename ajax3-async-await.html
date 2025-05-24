@@ -6,14 +6,16 @@
   <link rel="stylesheet" href="styles-unificado.css" />
 </head>
 <body class="async">
-  <h1>Async/Await com fetch</h1>
-  <button id="btnBuscar">Buscar idade estimada</button>
-  <pre id="resultado"></pre>
+  <div class="card">
+    <h1>Async/Await com fetch</h1>
+    <button id="btnBuscar">Buscar idade estimada</button>
+    <pre id="resultado"></pre>
+  </div>
 
   <script>
     async function buscarIdade() {
       try {
-        const response = await fetch('https://api.agify.io?name=michael');
+        const response = await fetch('https://api.agify.io?name=Alex');
         const data = await response.json();
         document.getElementById('resultado').textContent = JSON.stringify(data, null, 2);
       } catch (error) {

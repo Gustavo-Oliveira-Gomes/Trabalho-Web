@@ -13,7 +13,7 @@
   </div>
   <script>
     document.getElementById('btnBuscar').addEventListener('click', () => {
-      fetch('https://api.agify.io?name=michael')
+      fetch('https://api.agify.io?name=matias')
         .then(response => response.json())
         .then(data => {
           document.getElementById('resultado').textContent = JSON.stringify(data, null, 2);

@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #e3e3d1;
+    background-color: #f3f3f3;
     color: #333;
   }
   
@@ -33,7 +33,7 @@ body {
   }
   
   .card h2 {
-    color: #4b5757;
+    color: #395b7f;
     margin-top: 0;
   }
   
@@ -44,7 +44,7 @@ body {
   .card a {
     margin-top: 10px;
     text-decoration: none;
-    color: #4b5757;
+    color: #395b7f;
     font-weight: bold;
     display: inline-block;
   }
