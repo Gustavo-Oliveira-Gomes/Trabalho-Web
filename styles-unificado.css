@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    color: #333;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 350px;
+    max-width: 90vw;
+    text-align: center;
+    
+  }
+  
+  body.fetch {
+    background-color: #eef6fb;
+  }
+  
+  body.fetch h1 {
+    color: #0066aa;
+  }
+  
+  body.fetch button {
+    background-color: #007acc;
+  }
+  
+  body.fetch button:hover {
+    background-color: #005fa3;
+  }
+  
+  body.fetch #resultado {
+    background-color: #fff;
+  }
+  
+  body.promises {
+    background-color: #fdfaf4;
+    font-family: Georgia, serif;
+  }
+  
+  body.promises h1 {
+    color: #996600;
+  }
+  
+  body.promises button {
+    background-color: #cc9900;
+  }
+  
+  body.promises button:hover {
+    background-color: #b38600;
+  }
+  
+  body.promises #resultado {
+    background-color: #fff8e1;
+  }
+  
+  body.async {
+    background-color: #f3f3f3;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body.async h1 {
+    color: #333399;
+  }
+  
+  body.async button {
+    background-color: #4d4ddb;
+  }
+  
+  body.async button:hover {
+    background-color: #3838b5;
+  }
+  
+  body.async #resultado {
+    background-color: #ffffff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

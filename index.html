@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplos de AJAX Moderno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Exemplos de Requisições AJAX Modernas</h1>
+
+  <div class="cards-container">
+
+    <div class="card">
+      <h2>1. Fetch com then()</h2>
+      <p>
+        Utiliza a API fetch com encadeamento de Promises usando o método then. É uma forma moderna,
+        mais simples que XMLHttpRequest, mas pode ser menos legível em chamadas muito encadeadas.
+      </p>
+      <a href="ajax3-fetch.html" target="_blank"> Ver exemplo com fetch().then()</a>
+    </div>
+
+    <div class="card">
+      <h2>2. Promises Simuladas</h2>
+      <p>
+        Um exemplo de Promise criada manualmente com temporizador. Serve para entender o funcionamento
+        de Promises de forma didática, sem realizar uma requisição real. Ideal para testes e aprendizado.
+      </p>
+      <a href="ajax3-promises.html" target="_blank"> Ver exemplo com Promises Simuladas</a>
+    </div>
+
+    <div class="card">
+      <h2>3. Async/Await com fetch</h2>
+      <p>
+        A forma mais moderna e recomendada para código assíncrono. Usa fetch com async/await e permite
+        escrever código mais limpo, com controle de fluxo semelhante ao código síncrono.
+      </p>
+      <a href="ajax3-async-await.html" target="_blank"> Ver exemplo com async/await</a>
+    </div>
+
+  </div>
+</body>
+</html>
+
